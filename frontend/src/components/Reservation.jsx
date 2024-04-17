@@ -41,7 +41,7 @@ const Reservation = () => {
   };
 
   return (
-    <div className="flex flex-wrap justify-center bg-[#D9EDBF]">
+    <div className="flex flex-wrap pt-12 pb-12 justify-center bg-[#D9EDBF]">
       <div className="w-full max-w-sm md:max-w-md mx-auto">
         <div>
           <div className="px-4 py-10">
@@ -53,8 +53,8 @@ const Reservation = () => {
           </div>
         </div>
       </div>
-  
-      <div className="px-4 py-16 w-full max-w-sm md:max-w-md mx-auto">
+
+      <div className="px-4 py-2 w-full max-w-sm md:max-w-md mx-auto">
         <div className="bg-[#bbd49a] shadow-md rounded-lg overflow-hidden">
           <div className="px-4 py-2">
             <h2 className="text-lg font-semibold text-gray-800 mb-2 text-center">
@@ -65,8 +65,7 @@ const Reservation = () => {
             </p>
 
             <form className="flex flex-wrap">
-
-              <div className="mb-4 w-full md:w-1/2 pr-2">
+              <div className="mb-4 w-full">
                 <input
                   className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   type="text"
@@ -76,7 +75,7 @@ const Reservation = () => {
                 />
               </div>
 
-              <div className="mb-4 w-full md:w-1/2 pl-2">
+              <div className="mb-4 w-full">
                 <input
                   className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   type="text"
@@ -106,7 +105,7 @@ const Reservation = () => {
                 />
               </div>
 
-              <div className="mb-4 w-full md:w-1/2 pr-2">
+              <div className="mb-4 w-full">
                 <input
                   className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   type="email"
@@ -116,7 +115,7 @@ const Reservation = () => {
                 />
               </div>
 
-              <div className="mb-4 w-full md:w-1/2 pl-2">
+              <div className="mb-4 w-full">
                 <input
                   className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   type="number"
@@ -129,7 +128,8 @@ const Reservation = () => {
               <div className="flex items-center justify-center w-full">
                 <button
                   className=" bg-[#2b610e] text-white font-bold py-2 px-4 pb-4 rounded-lg focus:outline-none focus:shadow-outline"
-                  type="submit" onClick={handleReservation}
+                  type="submit"
+                  onClick={handleReservation}
                 >
                   RESERVE NOW
                   <span className="flex justify-center items-center rounded-full">

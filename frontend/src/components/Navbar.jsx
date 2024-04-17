@@ -105,7 +105,7 @@ const Navbar = () => {
             Home
           </Link>
           <Link
-            to="menu"
+            to="about"
             spy={true}
             smooth={true}
             duration={500}
@@ -115,7 +115,7 @@ const Navbar = () => {
             About Us
           </Link>
           <Link
-            to="products"
+            to="menu"
             spy={true}
             smooth={true}
             duration={500}
